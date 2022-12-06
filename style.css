@@ -6,14 +6,10 @@ html {
 * {
   box-sizing: border-box;
 }
-
 body {
 	max-width: 1920px;
 	background: #F6F6F6;
 }
-
-
-
 h1 {
 	font-weight: 900;
 	font-size: 48px;
