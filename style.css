@@ -3,11 +3,13 @@ html {
 	font-size: 16px;
 	line-height: 24px;
 }
+
 body {
 	background: #f8f8f8;
 	color: #4D4D50;
-	
+	margin: 0px;
 }
+
 h1 {
 	font-weight: 800;
 	font-size: 48px;
@@ -16,13 +18,16 @@ h1 {
 	padding:0px;
 	margin:0px 0px 40px 0px;
 	}
+	
 h4 {
 		color:#C5B7AA;
 		font-size: 22px;
 	}
+	
 h2 {
 	color: #4D4D50;
 }
+
 .flex-container {
    	display: flex;
     flex-direction: row;
@@ -30,16 +35,35 @@ h2 {
 	color:#f8f8f8;
 	font-family: Verdana;
 }
+
 aside {
     padding-top: 65px;
 	padding-bottom: 62px;
 	background-color: #f4f4f4;
 	margin:0px 30px 0px 30px;
 }
+
 .main-block {
 	width: 90%;
     margin: auto;
 }
+
 section{
 	font-weight: normal;
+}
+
+footer {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-color: #c6b8ac;
+	padding: 0px 1em;
+}
+footer a {
+	color: #f8f8f8;
+	text-decoration: none;
+}
+footer img {
+	width:120px;
+	height:100px;
 }
