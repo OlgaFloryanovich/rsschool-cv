@@ -1,5 +1,5 @@
 html {
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 }
@@ -33,7 +33,7 @@ h2 {
     flex-direction: row;
 	background: #c6b8ac; 
 	color:#f8f8f8;
-	font-family: Verdana;
+	font-family: 'Roboto', sans-serif;
 }
 
 aside {
