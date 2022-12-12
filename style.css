@@ -3,27 +3,43 @@ html {
 	font-size: 16px;
 	line-height: 24px;
 }
-* {
-  box-sizing: border-box;
-}
 body {
-	max-width: 1920px;
-	background: #F6F6F6;
+	background: #f8f8f8;
+	color: #4D4D50;
+	
 }
 h1 {
-	font-weight: 900;
+	font-weight: 800;
 	font-size: 48px;
-	line-height: 72px;
-	color: #000000;
+	line-height: 52px;
 	text-align:center;
 	padding:0px;
 	margin:0px 0px 40px 0px;
-	text-transform: uppercase;
 	}
+h4 {
+		color:#C5B7AA;
+		font-size: 22px;
+	}
+h2 {
+	color: #4D4D50;
+}
 .flex-container {
-    display: flex;
-    flex-direction: row; 
+   	display: flex;
+    flex-direction: row;
+	background: #c6b8ac; 
+	color:#f8f8f8;
+	font-family: Verdana;
 }
 aside {
-    padding-top: 110px;
+    padding-top: 65px;
+	padding-bottom: 62px;
+	background-color: #f4f4f4;
+	margin:0px 30px 0px 30px;
+}
+.main-block {
+	width: 90%;
+    margin: auto;
+}
+section{
+	font-weight: normal;
 }
