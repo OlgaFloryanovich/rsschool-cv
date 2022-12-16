@@ -8,6 +8,8 @@ body {
 	background: #f8f8f8;
 	color: #4D4D50;
 	margin: 0px;
+	max-width:1200px;
+	margin:0 auto;
 }
 * {
     box-sizing: border-box;
