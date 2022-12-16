@@ -56,7 +56,14 @@ section{
 	font-weight: normal;
 	padding: 30px 0px 0px 0px;
 }
-
+section a {
+	color: #4D4D50;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+section a:hover {
+	color: #4d2323;
+}
 footer {
 	display: flex;
     justify-content: space-between;
@@ -66,6 +73,7 @@ footer {
 	margin-top:20px;
 	
 }
+
 footer a, nav a {
 	color: #f8f8f8;
 	text-decoration: none;
